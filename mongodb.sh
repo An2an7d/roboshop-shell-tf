@@ -26,7 +26,7 @@ VALIDATE(){
         echo -e "$2 ... $G SUCCESS $N"
     fi
 }
-cp /home/centos/roboshop-shell/mongo.repo /etc/yum.repos.d/mongo.repo &>>LOGFILE
+cp /home/centos/roboshop-shell-tf/mongo.repo /etc/yum.repos.d/mongo.repo &>>LOGFILE
 
 VALIDATE $? "copying mongo repo to yum.repos.d"
 
