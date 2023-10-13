@@ -68,7 +68,7 @@ go build &>>LOGFILE
 
 VALIDATE $? "compiling source code and generating an executable binary files"
 
-cp /home/centos/roboshop-shell/dispatch.service /etc/systemd/system/dispatch.service &>>LOGFILE
+cp /home/centos/roboshop-shell-tf/dispatch.service /etc/systemd/system/dispatch.service &>>LOGFILE
 
 VALIDATE $? "copying dispatch service"
 
